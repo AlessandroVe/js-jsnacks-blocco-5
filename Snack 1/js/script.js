@@ -3,6 +3,7 @@ Nome = palla
 Peso = 10 */
 
 var palla = {
-    Nome = "palla",
-    Peso = 10
+    nome : "palla",
+    peso : 10
 }
+console.log(palla);
