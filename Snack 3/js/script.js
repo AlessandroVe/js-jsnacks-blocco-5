@@ -28,7 +28,7 @@ var giocatori =[
         nome : "Mario",
         cognome : "Rossi",
         anno : 1995,
-        punteggio : 15
+        punteggio : 20
     },
 
     {
@@ -42,7 +42,7 @@ var giocatori =[
         nome : "Filippo",
         cognome : "Rossi",
         anno : 1995,
-        punteggio : 15
+        punteggio : 50
     }
 ]
 
