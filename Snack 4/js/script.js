@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
             descrizione: ""
         }
     ]
-   // Successivamente, con dei prompt chiediamo di volta in volta all’utente la descrizione di ciascun studente, salviamola quindi all’interno della sua proprietà. 
+    // Successivamente, con dei prompt chiediamo di volta in volta all’utente la descrizione di ciascun studente, salviamola quindi all’interno della sua proprietà. 
     for (var x=0; x<studenti.length ; x++){
 
         studenti[x].descrizione = prompt("cosa ne pensi di " +studenti[x].nome+ "?");
