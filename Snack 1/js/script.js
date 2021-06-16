@@ -23,15 +23,18 @@ var giochi = []
 
 giochi.push(palla);
 
-console.log(giochi);
 
 /* Snack 1 - la conclusione per davvero.
 Permettere all’utente di inserire un nuovo oggetto all’interno dell’array giochi */
-var nome1 = prompt("inserire il nome un nuovo oggetto") 
-var peso1 = parseint(prompt("inserire il peso"))
 
-var gioco0={
-    nome : nome1,
-    peso : peso1
-}
-giochi.push(gioco1);
+var newName = prompt("inserire il nome un nuovo oggetto");
+var newPeso = parseInt(prompt("inserire il peso"));
+
+giochi.push(
+    {
+        name : newName,
+        peso : newPeso
+    }
+    );
+
+    console.log(giochi);
